@@ -20,7 +20,7 @@ def real_data_loading(data: np.array, seq_len):
     # Normalize the data
     scaler = MinMaxScaler().fit(ori_data)
     ori_data = scaler.transform(ori_data)
-
+    print("aaaa")
     # Preprocess the dataset
     temp_data = []
     # Cut data by sequence length
